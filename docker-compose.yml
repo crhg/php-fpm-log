@@ -10,7 +10,7 @@ services:
       - fpm
 
   fpm:
-  image: php:fpm
+    image: php:fpm
     volumes:
       - ./php.ini:/usr/local/etc/php/php.ini
       - ./html:/var/www/html
